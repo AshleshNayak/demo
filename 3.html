@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled page example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id ="container">
+        <h2>welcome to styled page</h2>
+        <hr>
+        <h3>About this page</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quia quaerat minus impedit iste deleniti inventore similique, nihil, aut veritatis optio odit ipsum, omnis fugiat cum quasi reprehenderit repellendus distinctio?
+        </p>
+        
+        <p class ="highlight"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus iure modi dolorum magnam officiis totam voluptatem eaque natus recusandae error. Amet consequatur porro molestias illo consequuntur quas facere dolor sapiente.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores expedita sunt est eos exercitationem quod aspernatur repellendus dicta doloremque sapiente alias assumenda nam cum corrupti, quas omnis possimus reiciendis id.
+        </p>
+
+        <span>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam dignissimos recusandae fugit rem labore obcaecati sed sit quaerat. Odio commodi dolorum quod cumque omnis dolore quibusdam exercitationem, molestiae reiciendis! Consectetur.
+        </span>
+
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio pariatur et est placeat fugit similique in quidem! Quaerat, explicabo exercitationem facilis rem totam dolores maiores repellat laboriosam voluptas, numquam dolor.
+        </p>
+
+        <img src="C:\Users\Ashlesh V Nayak\Pictures\Saved Pictures\fortnite-amongus-drip-is-real-v0-6itim6i2bw7b1.webp" alt="image" width="200">
+        <time datetime="13-12-2024"></time>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto rem iste dicta adipisci debitis est provident. Eligendi sunt, quam fugiat, illum nesciunt consectetur dolor accusamus fugit perspiciatis excepturi alias quo!</p>
+    </div>
+</body>
+</html>
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 5px;
+}
+h3{
+    color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+p.highlight{
+    background-color: aquamarine;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px dashed #ff920f;
+}
+div#container{
+    background-color: cadetblue;
+    padding: 20px;
+    border: 2px solid #009cc0;
+}
+a[target="_blank"]{
+    color: #e91e63;
+    text-decoration: none;
+    font-weight: bold;
+}
+a[target="_blank"]:hover{
+    text-decoration: underline;
+}
+div p{
+    color: chartreuse;
+    font-size: 16px;
+}
+div>span{
+    color: aqua;
+    font-size: 13px;
+    font-style: italic;
+}
+h2+hr{
+    border: 0;
+    height: 1px;
+    background-color: #4caf50;
+    margin: 10px 0;
+}
+h3~p{
+    font-family: 'Courier New', Courier, monospace;
+    color: #555;
+}
+time,img,span{
+    display: block;
+    margin: 15px 0;
+}
+a:hover{
+    color:#e91e63;
+    text-decoration: underline;
+}
+p::first-line{
+    font-weight: bold;
+    color: blanchedalmond
+}
+
+
+
+
+
+
+
+
+
+
+
+
