@@ -71,3 +71,18 @@
 </body>
 </html>
 
+localhost:
+CREATE DATABASE IF NOT EXISTS students;
+USE students;
+
+CREATE TABLE IF NOT EXISTS students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    grade CHAR(2) NOT NULL
+);
+
+INSERT INTO students (name, grade) VALUES 
+('Alice', 'A'),
+('Bob', 'B'),
+('Charlie', 'A'),
+('Diana', 'C');
